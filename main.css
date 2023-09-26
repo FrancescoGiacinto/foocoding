@@ -1,0 +1,70 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.imageWrapper {
+  max-width: max-content;
+  display: inline-block;
+  margin: 1em 40px;
+}
+
+.imageWrapper .imageDescription {
+  display: block;
+}
+
+.logoImg {
+  width: 100px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbarItem {
+  font-size: 14px;
+  line-height: 5rem;
+  padding: 0 1.5rem;
+}
+
+.content .siteHeading, .paragraphHeading, .sideNoteHeading {
+  display: block;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.content .siteHeading {
+  font-size: 1.5em;
+}
+
+.paragraphHeading {
+  font-size: 1.17em;
+}
+
+.sideNote {
+  display: block;
+  width: 30%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  color: #29627e;
+}
+
+.sideNoteParagraph {
+  padding: .5rem 0;
+}
+
+.sideNoteParagraph .italic {
+  font-style: italic;
+}
+
+.sideNoteParagraph .bold {
+  font-weight: bold;
+}
+
+.footer {
+  display: block;
+  margin-top: 1rem;
+  border: #29627e dashed 0.1rem;
+}
